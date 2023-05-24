@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Registration Page</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <style>
+        body {
+            margin-top: 130px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6 ms-auto me-auto">
+                <div class="card">
+                    <div class="card-header text-center bg-primary text-blue ">
+                        <h3>Register Here</h3>
+                    </div>
+                    <div class="card-body">
+                        <form action="Register.php" method="post">
+                            <center>
+                        
+                                <table>
+                                <tr>
+                                    <td> UserName :</td>
+                                    <td>
+                                        <input type="text" name="User">
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>Password :</td>
+                                    <td>
+                                        <input type="Password" name="User_pass" placeholder="Enter password Here">
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td> Email:</td>
+                                    <td>
+                                        <input type="email" name="mail" placeholder="Enter email">
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td> Gender :</td>
+                                    <td>
+                                        <input type="radio" name="Gender">Male
+                                        <input type="radio" name="Gender">Female
+                                        <input type="radio" name="Gender">Others
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td> Phone No:</td>
+                                    <td>
+                                  <select>
+                                    <option>+260</option>
+                                    <option>+254</option>
+                                    <option>+253</option>
+                                  </select>
+                                  <input type="Phone" name="mob_digits" placeholder="09877856">
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <input type="Submit" name="submit" value="Submit">
+                                    </td>
+                                </tr>
+                            </table>
+                            </center>
+                        </form>
+                    </div>
+                    <div class="card-footer" style="text-align: right;">
+                        <small>&copy;MicheloMweemba</small>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
